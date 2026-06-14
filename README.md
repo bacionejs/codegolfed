@@ -1,6 +1,4 @@
-
-
-<img width="1200" height="1202" alt="1000023069" src="https://github.com/user-attachments/assets/b240b413-e856-48b8-bb5e-bcc837a1c633" />
+<img width="80%" src="https://github.com/user-attachments/assets/5da158cd-9ae9-4947-82dd-43f586c531f6" />
 
 ---
 
@@ -8,8 +6,9 @@
 
 ---
   
-Make the unknown par.  
-Red means you lost.  
-Click the flag to reveal a shortest path.  
+Find the shortest path to the flag.  
+You can click any green squares on your axis.  
+Red means your not going a shortest path.  
+To learn, click the flag to reveal a shortest path.  
 
 ---
