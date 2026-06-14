@@ -7,7 +7,7 @@
 ---
   
 Find a shortest path to the flag.  
-You can click any green squares on your axis.  
+You can click any green square on your axis.  
 Red means your not going a shortest path.  
 To learn, click the flag to reveal a shortest path.  
 
