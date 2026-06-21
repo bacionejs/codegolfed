@@ -4,6 +4,8 @@
 
 [Try it](https://bacionejs.github.io/codegolfed)
 
+[View source code and download game](https://bacionejs.github.io/bacionejs/viewsource.html?file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html)  
+
 ---
   
 Find a shortest path to the flag.  
