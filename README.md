@@ -14,7 +14,7 @@ Source code is only 1k 🤯
 
 ---
 
-**CODEGOLFED** is a maze game  
+**CODEGOLFED** is a maze game disguised as a golf game 
 
 Find a shortest path to the flag.  
 You can click any green square on your axis.  
