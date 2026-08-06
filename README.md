@@ -1,6 +1,6 @@
 
 
-<a href="//bacionejs.github.io/codegolfed/index.html" target="_blank"><img src="https://github.com/user-attachments/assets/5da158cd-9ae9-4947-82dd-43f586c531f6" width="50%" /></a>
+<a href="//bacionejs.github.io/codegolfed/index.html" target="_blank"><img src="https://github.com/user-attachments/assets/76154912-dab7-474d-b511-e4f9af544ce3" width="50%" /></a>
 
 ---
 
