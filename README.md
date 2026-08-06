@@ -10,7 +10,7 @@
 
 Source code is only 1k 🤯  
 
-<a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank"><img width="200" src="https://github.com/user-attachments/assets/729b1e81-230d-497d-8726-094b644b594d" /></a>
+<a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank"><img width="200" src="https://github.com/user-attachments/assets/65c9863e-6410-4e57-8ba3-6346a893b041" /></a>
 
 ---
 
