@@ -3,4 +3,3 @@ function I(){do{L=0;G=[...Array(T)].map(_=>R()<E);while(!G[p=R()*(T-H)+H|0]);whi
 function C(s,q=[[s,0]],v={}){while(q.length){let[u,d]=q.shift();if(u==z)return d;if(!v[u]){v[u]=1;let a=u/S|0,b=u%S;for(let i=0;i<S;i++){G[i*S+b]&&i!=a&&q.push([i*S+b,d+1]);G[a*S+i]&&i!=b&&q.push([a*S+i,d+1])}}}return 99}
 function D(){g.innerHTML='';for(let i=0;i<T;i++){let d=document.createElement('div');d.style.background=i==p?'blue':i==z?'red':G[i]?'green':'tan';d.onclick=()=>{if((i%S==p%S)!=(~(i/S)==~(p/S))&&G[i]&&L+1+C(i)<=N){L++;p=i;p==z?I():D()}};g.append(d)}}
 I();</script>
-
