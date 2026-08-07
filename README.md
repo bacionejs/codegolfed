@@ -18,3 +18,5 @@ You can click any green square on your axis.
 A blocked click means you are not going a shortest path.  
 
 ---
+
+Unlike traditional maze algorithms that rely on local grid adjacency, this project uses a **novel sparse rook graph**, packing multi-dimensional complexity into a small visual space. However, this unique approach has graph creation parameters that are interdependent with only a small set of valid **setup** combinations which require extra work upfront, so **Monte Carlo simulations** were run to find values for density, size, and minpath. Not only were the values coupled in a tight band, but also increasing difficulty in some parameters had the paradoxical effect of reducing difficulty via the **highway effect**, and making the wrong adjustments to some parameters adversely affected **path uniqueness**. From the range of possible combinations found, a set of values was chosen based on established visual and cognitive research.
