@@ -36,7 +36,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Operational Envelope (Min Path L = 5)</h2>
+        <h2>Operational Envelope (minpath=5)</h2>
         <canvas id="graphCanvas" width="750" height="480"></canvas>
     </div>
 
@@ -107,11 +107,11 @@
         ctx.translate(20, height / 2);
         ctx.rotate(-Math.PI / 2);
         ctx.textAlign = 'center';
-        ctx.fillText('Active Density P (%)', 0, 0);
+        ctx.fillText('Active Density (%)', 0, 0);
         ctx.restore();
 
         // X-Axis Title
-        ctx.fillText('Board Size (N)', padding + graphWidth / 2, height - 15);
+        ctx.fillText('Board Size', padding + graphWidth / 2, height - 15);
 
         // Draw Operational Window Fill Only (Gap Region)
         ctx.beginPath();
@@ -132,14 +132,6 @@
         ctx.fillStyle = 'rgba(33, 150, 243, 0.15)';
         ctx.fill();
 
-        // Draw Legend Box with Unified Formula (containing N, P, L)
-        const legendX = width - 315;
-        const legendY = 75;
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
-        ctx.fillRect(legendX - 12, legendY - 12, 295, 52);
-        ctx.strokeStyle = '#d1d5db';
-        ctx.lineWidth = 1;
-        ctx.strokeRect(legendX - 12, legendY - 12, 295, 52);
 
         // Draw color indicator for operational gap
         ctx.fillStyle = 'rgba(33, 150, 243, 0.4)';
