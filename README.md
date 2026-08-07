@@ -1,5 +1,5 @@
 
-<a href="//bacionejs.github.io/codegolfed/index.html" target="_blank"><img src="https://github.com/user-attachments/assets/5cf35f29-f62a-42a1-9570-62c88502a049" width="50%" />
+<a href="//bacionejs.github.io/codegolfed/index.html" target="_blank"><img src="https://github.com/user-attachments/assets/0dc958f9-1b49-4fc1-8afd-26453fca3d21" width="50%" />
 
 ---
 
