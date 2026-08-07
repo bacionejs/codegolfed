@@ -17,9 +17,9 @@ Source code is only 811 bytes (uncompressed) 🤯
 
 ---
 
-Find a shortest path from blue to red.  
+Find the shortest path from blue to red.  
 You can click any green square on your axis.  
-A blocked click means you are not going a shortest path.  
+A blocked click means you are not going the shortest path.  
 
 ---
 
