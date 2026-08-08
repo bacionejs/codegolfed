@@ -1,28 +1,16 @@
-## Instructions 📖
 
 Find a path between the red squares in **exactly 5 steps**.  
 **You must jump to any green square on your axis**.  
 Refresh the browser for a new random maze.  
 Non-interactive, solve in your head.
 
-<a href="//bacionejs.github.io/codegolfed/index.html" target="_blank">
 <img src="https://github.com/user-attachments/assets/7f0c7e31-6c62-4031-bf57-c8659920b4f9" width="40%" />
 
-<img width="40%" src="https://github.com/user-attachments/assets/034e8037-844b-4d1b-8fa1-2e177ae27dc5" />
-
-</a>
+<img width="40%" src="https://github.com/user-attachments/assets/a0ec450b-95f0-4217-91be-a5a04cb5ca13" />
 
 👉 [Try it](https://bacionejs.github.io/codegolfed/index.html)   
 
 ---
-
-## Tiny 🤯
-
-Source code is only 461 bytes (uncompressed)
-
-<a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank">
-<img width="200" src="https://github.com/user-attachments/assets/17101bf1-0632-4bc6-97ab-30d77366f184" />
-</a>
 
 ## Research 🧑‍🎓
 
