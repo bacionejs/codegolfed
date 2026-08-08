@@ -1,6 +1,6 @@
 
 Find a path between the red squares in **exactly 5 steps**.  
-**You must jump to any green square on your axis**.  
+**Jump to any green square on your axis**.  
 Refresh the browser for a new random maze.  
 Non-interactive, solve in your head.
 
