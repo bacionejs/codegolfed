@@ -20,6 +20,7 @@ Source code is only 461 bytes (uncompressed) 🤯
 Find a path from Red to Red in exactly 5 steps.  
 You can jump to any green square on your axis.  
 Refresh the browser for a new random puzzle.  
+Non-interactive, solve in your head.
 
 ---
 
