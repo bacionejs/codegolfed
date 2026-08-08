@@ -20,7 +20,7 @@ It's not great, usually easy, ranging from 5-40 seconds to solve, but was the fi
   
 However, Monte Carlo <a href="//bacionejs.github.io/rookmaze/research/montecarlo.html" target="_blank">simulations</a> revealed that parameters were strongly interdependent with a <a href="//bacionejs.github.io/rookmaze/research/chart.html" target="_blank">narrow viable region</a>, and increasing difficulty in some parameters had the paradoxical effect of reducing difficulty [^1], and making the wrong adjustments to some parameters adversely affected path <a href="//bacionejs.github.io/rookmaze/research/analyzer.html" target="_blank">uniqueness</a>. 
 
-Feel free to edit the code with different parameters to create more difficult mazes.
+Feel free to edit the code with <a href="//bacionejs.github.io/rookmaze/research/analyzer.html" target="_blank">different parameters</a> to create more difficult mazes.
 <img width="40%" src="https://github.com/user-attachments/assets/f1126017-cd0f-4b5c-9a3b-3ee9a07c2f3c" />
 <img width="40%" src="https://github.com/user-attachments/assets/6094eadd-1dfa-4ce7-bdfd-6cf19452ee47" />
 
