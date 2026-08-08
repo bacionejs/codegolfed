@@ -10,4 +10,4 @@ Non-interactive, solve in your head.
   
 https://bacionejs.github.io/rookmaze/?[12,0.25,5]  
 https://bacionejs.github.io/rookmaze?[20,0.2,5]  
-https://bacionejs.github.io/rookmaze?[30,0.1,]  
+https://bacionejs.github.io/rookmaze?[30,0.1,6]  
