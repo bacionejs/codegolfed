@@ -1,4 +1,1 @@
-<div id=g style="display:inline-grid;gap:1px;background:black;grid:repeat(12,6dvmin)/repeat(12,6dvmin)"></div><script>R=Math.random
-C=s=>{v={[s]:0};for(u of q=[s]){if(u==z)return v[u];for(i=12;i--;)for(n of[i*12+u%12,u-u%12+i])G[n]&&!(n in v)&&(v[n]=v[u]+1,q.push(n))}}
-do for(G=[],p=R()*144|0,z=R()*144|0,i=0;i<144;)G[i++]=R()<.25;while(C(p)!=5)
-g.innerHTML=G.map((v,i)=>`<div style=background:${i==p||i==z?'red':v?'green':'purple'}></div>`).join('')</script>
+<div id=g><script>[S,D,L]=JSON.parse(location.search.slice(1));T=S*S;A=`repeat(${S},${90/S}dvmin)`;g.style=`grid:${A}/${A};display:inline-grid;gap:1px;background:#000;`;R=Math.random;C=s=>{v={[s]:0};for(u of q=[s]){if(u==z)return v[u];for(i=S;i--;)for(n of[i*S+u%S,u-u%S+i])G[n]&&!(n in v)&&(v[n]=v[u]+1,q.push(n))}};do{for(G=[],p=R()*T|0,z=R()*T|0,i=0;i<T;)G[i++]=R()<D;}while(C(p)!=L);g.innerHTML=G.map((v,i)=>`<div style=background:${i==p||i==z?'red':v?'#080':'#808'}></div>`).join('');</script>
