@@ -1,5 +1,4 @@
-<style>*{margin:0}#g>div{border:1px solid black}#g{display:grid;width:100dvmin;aspect-ratio:1}</style><div id=g></div><script>let S=12,P=5,E=.25,R=Math.random,T=S*S,G,p,z,L,N;g.style.grid=`repeat(${S},1fr)/repeat(${S},1fr)`;
-function I(){do{L=0;G=Array.from({length:T},_=>R()<E);p=R()*T|0;z=R()*T|0}while((N=C(p))%99<P);D()}
-function C(s,q=[[s,0]],v={}){while(q.length){let[u,d]=q.shift();if(u==z)return d;if(!v[u]){v[u]=1;let a=u/S|0,b=u%S;for(let i=0;i<S;i++){G[i*S+b]&&i!=a&&q.push([i*S+b,d+1]);G[a*S+i]&&i!=b&&q.push([a*S+i,d+1])}}}return 99}
-function D(){g.innerHTML='';for(let i=0;i<T;i++){let d=document.createElement('div');d.style.background=i==p?'blue':i==z?'red':G[i]?'green':'tan';d.onclick=()=>{if((i%S==p%S)!=(~(i/S)==~(p/S))&&G[i]&&L+1+C(i)<=N){L++;p=i;p==z?I():D()}};g.append(d)}}
-I();</script>
+<div id=g style="display:inline-grid;gap:1px;background:black;grid:repeat(12,6dvmin)/repeat(12,6dvmin)"></div><script>R=Math.random
+C=s=>{v={[s]:0};for(u of q=[s]){if(u==z)return v[u];for(i=12;i--;)for(n of[i*12+u%12,u-u%12+i])G[n]&&!(n in v)&&(v[n]=v[u]+1,q.push(n))}}
+do for(G=[],p=R()*144|0,z=R()*144|0,i=0;i<144;)G[i++]=R()<.25;while(C(p)!=5)
+g.innerHTML=G.map((v,i)=>`<div style=background:${i==p||i==z?'red':v?'green':'purple'}></div>`).join('')</script>
