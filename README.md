@@ -22,6 +22,7 @@ However, Monte Carlo <a href="//bacionejs.github.io/rookmaze/research/montecarlo
 
 Feel free to edit the code with different parameters to create more difficult mazes.
 <img width="40%" src="https://github.com/user-attachments/assets/f1126017-cd0f-4b5c-9a3b-3ee9a07c2f3c" />
+<img width="40%" src="https://github.com/user-attachments/assets/6094eadd-1dfa-4ce7-bdfd-6cf19452ee47" />
 
 
 [^1]: I refer to this phenomenon as the highway effect: as the imposed minimum path length between two terminal vertices increases, conditioned samples of a sparse random spatial graph increasingly exhibit a coherent backbone connecting those terminals.
