@@ -1,12 +1,12 @@
 ## Instructions 📖
 
 Find a path between the red squares in **exactly 5 steps**.  
-You must jump to **any green square on your axis**.  
+**You must jump to any green square on your axis**.  
 Refresh the browser for a new random maze.  
 Non-interactive, solve in your head.
 
 <a href="//bacionejs.github.io/codegolfed/index.html" target="_blank">
-<img src="https://github.com/user-attachments/assets/a109e647-0604-4eda-a94b-597d2598fad6" width="50%" />
+<img src="https://github.com/user-attachments/assets/7f0c7e31-6c62-4031-bf57-c8659920b4f9" width="50%" />
 </a>
 
 👉 [Try it](https://bacionejs.github.io/codegolfed/index.html)   
