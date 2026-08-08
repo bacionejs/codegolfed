@@ -6,7 +6,10 @@ Refresh the browser for a new random maze.
 Non-interactive, solve in your head.
 
 <a href="//bacionejs.github.io/codegolfed/index.html" target="_blank">
-<img src="https://github.com/user-attachments/assets/7f0c7e31-6c62-4031-bf57-c8659920b4f9" width="50%" />
+<img src="https://github.com/user-attachments/assets/7f0c7e31-6c62-4031-bf57-c8659920b4f9" width="40%" />
+
+<img width="40%" src="https://github.com/user-attachments/assets/034e8037-844b-4d1b-8fa1-2e177ae27dc5" />
+
 </a>
 
 👉 [Try it](https://bacionejs.github.io/codegolfed/index.html)   
