@@ -12,7 +12,7 @@
 Source code is only 461 bytes (uncompressed) 🤯  
 
 <a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank">
-<img width="200" src="https://github.com/user-attachments/assets/9aade7a6-d416-4b1c-aee5-940582fdc183" />
+<img width="200" src="https://github.com/user-attachments/assets/17101bf1-0632-4bc6-97ab-30d77366f184" />
 </a>
 
 ---
