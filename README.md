@@ -8,7 +8,7 @@ Non-interactive, solve in your head.
 
 <img width="40%" src="https://github.com/user-attachments/assets/a1b704a9-b93b-48e2-9141-04a39c771d88" />
 
-👉 [Try it](https://bacionejs.github.io/codegolfed/index.html)   
+👉 [Try it](https://bacionejs.github.io/rookmaze/index.html)   
 
 ---
 
