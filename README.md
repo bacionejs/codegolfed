@@ -19,9 +19,13 @@ Source code is only 461 bytes (uncompressed) 🤯
   
 Find a path from Red to Red in exactly 5 steps.  
 You can jump to any green square on your axis.  
-Refresh the browser for a new random puzzle.  
+Refresh the browser for a new random maze.  
 Non-interactive, solve in your head.
 
 ---
 
-Unlike traditional maze algorithms that rely on local grid adjacency, this project uses a **novel sparse rook graph with a path-size constraint**. However, this unique approach has graph creation parameters that are interdependent, with only a small set of valid **setup** combinations, which require extra work upfront, so Monte Carlo <a href="//bacionejs.github.io/codegolfed/research/montecarlo.html" target="_blank">simulations</a> were run to find values for size, density and path-size. Not only were the values coupled in a tight <a href="//bacionejs.github.io/codegolfed/research/chart.html" target="_blank">band</a>, but also increasing difficulty in some parameters had the paradoxical effect of reducing difficulty via the **highway effect**, and making the wrong adjustments to some parameters adversely affected path <a href="//bacionejs.github.io/codegolfed/research/analyzer.html" target="_blank">uniqueness</a>. From the range of valid combinations found, a set of values was chosen based on established visual and cognitive research.
+Unlike traditional maze algorithms that rely on local grid adjacency, this project uses a **novel sparse rook graph with a path-size constraint**.  
+  
+It's not a great maze, usually easy, ranging from 5-40 seconds to solve, but was the first amateur insight I had before I learned programming: plotting random points creates a board that looks navigatable, that is, points can be thought of as the corners of a traditional maze. A naive approach can yield a reasonably difficult maze and by adding a path test, can be increased significantly.  
+  
+However, the initial conditions are interdependent with only a limited set of valid combinations, so Monte Carlo <a href="//bacionejs.github.io/codegolfed/research/montecarlo.html" target="_blank">simulations</a> were run to find values for size, density and path-size. Not only were the values coupled in a tight <a href="//bacionejs.github.io/codegolfed/research/chart.html" target="_blank">band</a>, but also increasing difficulty in some parameters had the paradoxical effect of reducing difficulty via the **highway effect**, and making the wrong adjustments to some parameters adversely affected path <a href="//bacionejs.github.io/codegolfed/research/analyzer.html" target="_blank">uniqueness</a>. From the range of valid combinations found, a set of values was chosen based on established visual and cognitive research.
