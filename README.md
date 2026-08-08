@@ -3,26 +3,26 @@
 <img src="https://github.com/user-attachments/assets/a109e647-0604-4eda-a94b-597d2598fad6" width="50%" />
 </a>
 
----
-
 👉 [Try it](https://bacionejs.github.io/codegolfed/index.html)   
 
 ---
 
-Source code is only 461 bytes (uncompressed) 🤯  
+## Tiny 🤯
+
+Source code is only 461 bytes (uncompressed)
 
 <a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank">
 <img width="200" src="https://github.com/user-attachments/assets/17101bf1-0632-4bc6-97ab-30d77366f184" />
 </a>
 
----
-  
+## Instructions 📖
+
 Find a path from Red to Red in exactly 5 steps.  
 You can jump to any green square on your axis.  
 Refresh the browser for a new random maze.  
 Non-interactive, solve in your head.
 
----
+## Research 🧑‍🎓
 
 Unlike traditional mazes, this project uses a **custom sparse rook graph**.
 
