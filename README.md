@@ -8,5 +8,5 @@ Non-interactive, solve in your head.
 
 <img width="40%" src="https://github.com/user-attachments/assets/f62d6698-6e2b-41fe-bc80-fbf6dfcf2ad0" />
 
-👉 [Try it](https://bacionejs.github.io/rookmaze/index.html)   
+👉 [Medium](https://bacionejs.github.io/rookmaze/index.html?[20,0.2,5])   
 
