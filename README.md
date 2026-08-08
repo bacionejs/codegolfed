@@ -12,7 +12,7 @@ Non-interactive, solve in your head.
 
 ---
 
-## Research 🧑‍🎓
+## Notes 🧑‍🎓
 
 Unlike traditional mazes, this project uses a **custom sparse rook graph**.
 
