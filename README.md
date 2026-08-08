@@ -1,6 +1,6 @@
 
 <a href="//bacionejs.github.io/codegolfed/index.html" target="_blank">
-<img src="https://github.com/user-attachments/assets/0dc958f9-1b49-4fc1-8afd-26453fca3d21" width="50%" />
+<img src="https://github.com/user-attachments/assets/a109e647-0604-4eda-a94b-597d2598fad6" width="50%" />
 </a>
 
 ---
@@ -9,17 +9,17 @@
 
 ---
 
-Source code is only 811 bytes (uncompressed) 🤯  
+Source code is only 461 bytes (uncompressed) 🤯  
 
 <a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank">
 <img width="200" src="https://github.com/user-attachments/assets/9aade7a6-d416-4b1c-aee5-940582fdc183" />
 </a>
 
 ---
-
-Find the shortest path from blue to red.  
-You can click any green square on your axis.  
-A blocked click means you are not going the shortest path.  
+  
+Find a path from Red to Red in exactly 5 steps.  
+You can jump to any green square on your axis.  
+Refresh the browser for a new random puzzle.  
 
 ---
 
