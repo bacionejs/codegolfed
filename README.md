@@ -17,8 +17,6 @@ Non-interactive, solve in your head.
 Unlike traditional mazes, this project uses a **custom sparse rook graph**.
 
 It's not great, usually easy, ranging from 5-40 seconds to solve, but was the first amateur insight I had before I learned programming: plotting random points creates a board that looks navigatable, that is, points can be thought of as the corners of a traditional maze. A naive approach can yield a reasonably difficult maze and by adding a path test, can be improved significantly.
-
-The resulting geometry also gives the puzzle a multidimensional character. Although the board is visually two-dimensional, its connectivity exists in an abstract graph space. Edges may cross without intersecting, allowing a solution to pass across its own previous path without revisiting a vertex. The player must therefore distinguish geometric position from graph connectivity, effectively reasoning in two spaces at once.
   
 However, Monte Carlo <a href="//bacionejs.github.io/rookmaze/research/montecarlo.html" target="_blank">simulations</a> revealed that parameters were strongly interdependent with a <a href="//bacionejs.github.io/rookmaze/research/chart.html" target="_blank">narrow viable region</a>, and increasing difficulty in some parameters had the paradoxical effect of reducing difficulty [^1], and making the wrong adjustments to some parameters adversely affected path <a href="//bacionejs.github.io/rookmaze/research/analyzer.html" target="_blank">uniqueness</a>. From the range of combinations found, a set was chosen based on established visual and cognitive research.
 
