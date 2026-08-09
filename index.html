@@ -1,6 +1,6 @@
 <div id=g>
 <script>
-[S,D,L]=JSON.parse(decodeURI(location.search.slice(1)));
+[S,D,L]=JSON.parse(location.search.slice(1));
 T=S*S;A=`repeat(${S},${90/S}dvmin)`;
 g.style=`
   grid:${A}/${A};
