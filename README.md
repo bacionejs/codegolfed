@@ -11,3 +11,5 @@ Non-interactive, solve in your head.
 Easy: https://bacionejs.github.io/rookmaze/?[12,0.25,5]  
 Medium: https://bacionejs.github.io/rookmaze?[20,0.2,5]  
 Hard: https://bacionejs.github.io/rookmaze?[30,0.1,5]  
+
+<a href="https://bacionejs.github.io/rookmaze/?[12,0.25,5]">Demo</a>
