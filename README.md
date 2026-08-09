@@ -14,5 +14,5 @@ Refresh the browser for a new random maze. Non-interactive, solve in your head.
 
 Research for finding valid parameters  
 <a href="https://bacionejs.github.io/rookmaze/research/chart.html">Chart</a>  
-<a href="https://bacionejs.github.io/rookmaze/research/montecarlo.html">Monte Carlo</a>  
 <a href="https://bacionejs.github.io/rookmaze/research/analyzer.html">Analyzer</a>  
+<a href="https://bacionejs.github.io/rookmaze/research/montecarlo.html">Monte Carlo</a>  
