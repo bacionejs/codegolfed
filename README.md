@@ -8,8 +8,6 @@ Non-interactive, solve in your head.
 
 <img width="40%" src="https://github.com/user-attachments/assets/f62d6698-6e2b-41fe-bc80-fbf6dfcf2ad0" />
   
-Easy: https://bacionejs.github.io/rookmaze/?[12,0.25,5]  
-Medium: https://bacionejs.github.io/rookmaze?[20,0.2,5]  
-Hard: https://bacionejs.github.io/rookmaze?[30,0.1,5]  
-
-<a href="https://bacionejs.github.io/rookmaze/?[12,0.25,5]">Demo</a>
+<a href="https://bacionejs.github.io/rookmaze/?[12,0.25,5]">Easy</a>  
+<a href="https://bacionejs.github.io/rookmaze/?[20,0.2,5]">Medium</a>  
+<a href="https://bacionejs.github.io/rookmaze/?[20,0.1,5]">Hard</a>  
