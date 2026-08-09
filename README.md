@@ -9,3 +9,10 @@ Refresh the browser for a new random maze. Non-interactive, solve in your head.
 <a href="https://bacionejs.github.io/rookmaze/?[12,0.25,5]">Easy</a> 
 <a href="https://bacionejs.github.io/rookmaze/?[20,0.2,5]">Medium</a> 
 <a href="https://bacionejs.github.io/rookmaze/?[30,0.1,5]">Hard</a>  
+
+---
+
+Research for finding valid parameters  
+<a href="https://bacionejs.github.io/rookmaze/research/chart.html">Chart</a>  
+<a href="https://bacionejs.github.io/rookmaze/research/montecarlo.html">Monte Carlo</a>  
+<a href="https://bacionejs.github.io/rookmaze/research/analyzer.html">Analyzer</a>  
