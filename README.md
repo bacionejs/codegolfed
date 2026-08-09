@@ -8,4 +8,4 @@ Refresh the browser for a new random maze. Non-interactive, solve in your head.
 
 <a href="https://bacionejs.github.io/rookmaze/?[12,0.25,5]">Easy</a> 
 <a href="https://bacionejs.github.io/rookmaze/?[20,0.2,5]">Medium</a> 
-<a href="https://bacionejs.github.io/rookmaze/?[20,0.1,5]">Hard</a>  
+<a href="https://bacionejs.github.io/rookmaze/?[30,0.1,5]">Hard</a>  
