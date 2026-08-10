@@ -6,7 +6,7 @@ Refresh the browser for a new random maze. Non-interactive, solve in your head.
 
 <img width="40%" src="https://github.com/user-attachments/assets/ee42d296-7a3d-4c1c-b679-d15d6472df41" />
 
-<a href="https://bacionejs.github.io/rookmaze?[12,0.25,5]">5 step</a>  
+<a href="https://bacionejs.github.io/rookmaze?[12,0.25,5]">5 step, small</a>  
 <a href="https://bacionejs.github.io/rookmaze?[20,0.2,5]">5 step, bigger</a>  
 <a href="https://bacionejs.github.io/rookmaze?[30,0.1,8]">8 step, huge</a>  
 
