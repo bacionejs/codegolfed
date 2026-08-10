@@ -1,11 +1,23 @@
 
-Find a path between the red squares in the **exact number of steps by jumping to any green square on your axis**.  
-Refresh the browser for a new random maze. Non-interactive, solve in your head.  
 
-<img width="40%" src="https://github.com/user-attachments/assets/7f0c7e31-6c62-4031-bf57-c8659920b4f9" />
-
-<a href="https://bacionejs.github.io/rookmaze?[25,0.1,6]">6 steps</a>  
+<a href="//bacionejs.github.io/codegolfed/index.html" target="_blank"><img src="https://github.com/user-attachments/assets/76154912-dab7-474d-b511-e4f9af544ce3" width="50%" /></a>
 
 ---
 
-Or try the [test harness](https://bacionejs.github.io/rookmaze/testharness.html)
+👉 [Try it](https://bacionejs.github.io/codegolfed/index.html)   
+
+---
+
+Source code is only 1k 🤯  
+
+<a href="https://bacionejs.github.io/bacionejs/viewsource.html?b=1&file=https://raw.githubusercontent.com/bacionejs/codegolfed/main/index.html" target="_blank"><img width="200" src="https://github.com/user-attachments/assets/65c9863e-6410-4e57-8ba3-6346a893b041" /></a>
+
+---
+
+**CODEGOLFED** is a maze game disguised as a golf game 
+
+Find a shortest path to the flag.  
+You can click any green square on your axis.  
+A blocked click means you are not going a shortest path.  
+
+---

@@ -1,1 +1,8 @@
-<x id=g><script>[S,D,L]=JSON.parse(location.search.slice(1));T=S*S;A=`repeat(${S},${90/S}dvmin)`;g.style=`grid:${A}/${A};display:inline-grid;gap:1px;background:#000;`;R=Math.random;C=s=>{v={[s]:0};c={[s]:1};for(u of q=[s]){if(u==z)return c[u]==1?v[u]:0;for(i=S;i--;)for(n of[i*S+u%S,u-u%S+i])G[n]&&(!(n in v)&&(v[n]=v[u]+1,c[n]=0,q.push(n)),v[n]==v[u]+1&&(c[n]+=c[u]))}};do{for(G=[],p=R()*T|0,z=R()*T|0,i=0;i<T;)G[i++]=R()<D;}while(C(p)!=L);g.innerHTML=G.map((v,i)=>`<x style=background:${i==p||i==z?'red':v?'#080':'#808'}></x>`).join('');</script>
+<meta charset=utf-8><style>*{margin:0;padding:0;font-size:8dvmin}#g{display:grid;grid-template:repeat(10,10dvmin)/repeat(10,10dvmin)}</style><div id=g></div><script>let{random:R,floor:F}=Math,G=[],p={},z={},W,S,r,c,i,N,P,E;
+function C(s,m,w,q,v,k){q=[[s,m,0,[...P,`${s},${m}`]]];v={};while(q.length){let[a,b,d,t]=q.shift();if(a==z.r&&b==z.c)return w?t:d;if(!v[k=`${a},${b}`]){v[k]=1;for(let i=0;i<10;i++){G[i][b]&&i!=a&&q.push([i,b,d+1,[...t,`${i},${b}`]]);
+G[a][i]&&i!=m&&q.push([a,i,d+1,[...t,`${a},${i}`]])}}}return w?[]:99}function I(){do{W=S=0;P=[];E={};for(r=0;r<10;r++){G[r]=G[r]||[];for(c=0;c<10;c++)G[r][c]=R()<0.3?1:0}
+while(!G[p.r=F(R()*5)+5][p.c=F(R()*10)]);
+while(!G[z.r=F(R()*5)][z.c=F(R()*10)]||p.r==z.r&&p.c==z.c);N=C(p.r,p.c)}while(N<4||N>20);D()}function D(){g.innerHTML='';for(r=0;r<10;r++)for(c=0;c<10;c++){let d=document.createElement('div'),s=d.style,x=r,y=c;
+s.background=E[`${r},${c}`]?'red':S&&C(p.r,p.c,1).includes(`${r},${c}`)?'orange':G[r][c]?'green':'tan';s.display='flex';s.alignItems='center';s.justifyContent='center';x==p.r&&y==p.c?d.innerHTML='🏌️':x==z.r&&z.c==y&&(d.innerHTML='⛳');
+d.onclick=()=>{if(!W){if(x==z.r&&y==z.c&&(x!=p.r)==(y!=p.c)){S=!S;D();return}if((x==p.r)!=(y==p.c)&&G[x][y]){if(P.length+1+C(x,y)>N){E[`${x},${y}`]=1;D();return}P.push(`${x},${y}`);p={r:x,c:y};x==z.r&&y==z.c?(W=1,I()):D()}}};g.appendChild(d)}}I();</script>
+
